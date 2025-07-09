@@ -1,0 +1,88 @@
+/* Base Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-image 0.6s ease;
+}
+
+/* Weather-based Background Classes */
+body.sunny {
+  background-image: url("images/pexels-bae-jun-193018126-32920557.jpg");
+}
+
+body.rainy {
+  background-image: url("images/pexels-pixabay-531906.jpg");
+}
+
+body.snowy {
+  background-image: url("images/pexels-souvenirpixels-1571442.jpg");
+}
+
+body.cloudy {
+  background-image: url("images/pexels-pixabay-414659.jpg");
+}
+
+/* Glassy Container */
+.container {
+  max-width: 400px;
+  margin: 105px auto 0;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* translucent background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Voice Button Specific Style */
+#voiceBtn {
+  background-color: #28a745; /* Green to differentiate */
+}
+
+#voiceBtn:hover {
+  background-color: #218838;
+}
+
+/* Weather Info Section */
+.weather-info {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Group Buttons Side by Side */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
